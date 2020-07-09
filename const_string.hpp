@@ -7,9 +7,9 @@ using namespace std;
 class const_string 
 {
 public:
-        // Constructors
-    const_string();
-    const_string(const string& s) : intern(s) {}
+        // Various Constructors
+    const_string(); // default constructor
+    const_string(const string& s) : intern(s) {} // single arg constructor
     
     const_string(const char *s) :intern(s) {}
     
